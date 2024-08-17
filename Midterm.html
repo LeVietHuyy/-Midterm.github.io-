@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giới Thiệu Bản Thân</title>
+    <!-- Link Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="Midterm.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"></a>
+        <img src="Logo.jpg" width="100px", height = "auto"/>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">Trang chủ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#img">Hình ảnh</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills">Chứng chỉ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Liên Hệ</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <!-- Container -->
+    <div class="container mt-5">
+        <header id="home" class="text-center">
+            <h1>Xin Chào! Tôi là <span class="highlight">Lê Việt Huy</span></h1>
+            <p class="fade-in">Chào mừng bạn đến với trang web cá nhân của tôi.</p>
+        </header>
+        <section id="about" class="about slide-in mt-5">
+            <h2>Thông tin   </h2>
+            <p>-Họ và tên: Lê Việt Huy </p>
+            <p>-Ngày sinh: 07/06/2004</p>
+            <p>-Quê quán: Quảng Nam </p>
+            <p>-Tôi là sinh viên ngành Công nghệ thông tin tại trường Đại học Nguyễn Tất Thành. </p>
+            <p>-Lớp: 22BITV02 </p>
+            <ul>
+            <p>-Sở thích của tôi bao gồm:</p>
+                <li>Đọc sách</li>
+                <li>Chơi game</li>
+                <li>Nghe nhạc</li>
+            </ul>
+        </section>
+        <section id="img">
+            <h2>Hình ảnh</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="images/IMG_7213.jpeg" class="img-fluid" alt="Hình ảnh với của tôi">
+                </div>
+                <div class="col-md-4">
+                    <img src="images/IMG_0714.jpeg" class="img-fluid" alt="Hình ảnh của tôi">
+                </div>
+                <div class="col-md-4">
+                    <img src="images/IMG_1656.jpeg" class="img-fluid"  alt="Hình ảnh với của tôi">
+                </div>
+                <div class="col-md-4">
+                    <img src="images/IMG_1737.JPG" class="img-fluid"  alt="Hình ảnh với của tôi">
+                </div>
+            </div>
+        </section>
+        
+        <section>
+        <h2>Chứng chỉ</h2>
+        <div id="skills" class="skills slide-in mt-5">
+            <img id="skills" src="images/frontend.jpg" class="img-fluid" alt="Chứng chỉ Front-end">
+           <img id="skills" src="images/ITsupport.jpg" class="img-fluid" alt="Chứng chỉ IT support">
+        </div>
+        </section>
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="Midterm.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+</body>
+<footer>
+    <section id="contact" class="contact slide-in mt-5">
+        <h2>Liên Hệ</h2>
+        <p>Thông tin của tôi qua các mạng xã hội:</p>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/leviethuy07062004" target="_blank" class="facebook-icon">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://www.instagram.com/_viethuy0706/" target="_blank" class="instagram-icon">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/viet-huy-le/" target="_blank" class="linkedin-icon">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank" class="mail-icon">
+                <i class="fas fa-envelope"></i>
+            </a>
+        </div>
+    </section>
+</footer>
+</html>
